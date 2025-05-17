@@ -1,0 +1,60 @@
+.planner-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff); /* New background */
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Smooth shadow */
+  max-width: 700px;
+  margin: 60px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.planner-header h1 {
+  font-size: 40px;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.planner-header p {
+  font-size: 18px;
+  color: #607d8b;
+  margin-bottom: 30px;
+}
+
+.planner-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.planner-form label {
+  font-size: 16px;
+  margin-bottom: 6px;
+  text-align: left;
+  width: 80%;
+  color: #444;
+}
+
+.planner-form input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.planner-form button {
+  padding: 12px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #00796b;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.planner-form button:hover {
+  background-color: #004d40;
+}
